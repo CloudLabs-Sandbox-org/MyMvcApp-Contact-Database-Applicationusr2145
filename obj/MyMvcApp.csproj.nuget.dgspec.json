@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\azureuser\\MyMvcApp\\MyMvcApp.csproj": {}
+    "c:\\Users\\azureuser\\GitHub Copilot\\MyMvcApp-Contact-Database-Applicationusr2145\\MyMvcApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\azureuser\\MyMvcApp\\MyMvcApp.csproj": {
+    "c:\\Users\\azureuser\\GitHub Copilot\\MyMvcApp-Contact-Database-Applicationusr2145\\MyMvcApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\azureuser\\MyMvcApp\\MyMvcApp.csproj",
+        "projectUniqueName": "c:\\Users\\azureuser\\GitHub Copilot\\MyMvcApp-Contact-Database-Applicationusr2145\\MyMvcApp.csproj",
         "projectName": "MyMvcApp",
-        "projectPath": "C:\\Users\\azureuser\\MyMvcApp\\MyMvcApp.csproj",
+        "projectPath": "c:\\Users\\azureuser\\GitHub Copilot\\MyMvcApp-Contact-Database-Applicationusr2145\\MyMvcApp.csproj",
         "packagesPath": "C:\\Users\\azureuser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\azureuser\\MyMvcApp\\obj\\",
+        "outputPath": "c:\\Users\\azureuser\\GitHub Copilot\\MyMvcApp-Contact-Database-Applicationusr2145\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\azureuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\azureuser\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,6 +42,28 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.11.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -63,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
